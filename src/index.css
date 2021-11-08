@@ -1,11 +1,14 @@
 html,
 body,
 #root {
-  height: 100%;
+  height: fit-content;
+  
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background: linear-gradient(to top, hsl(195deg, 20%, 86%) 40%, hsl(180deg, 25%, 92%) 40%) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   margin: 0;
 }
 
