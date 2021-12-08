@@ -1,0 +1,9 @@
+version: 1.0
+runtime: node12
+build:
+  commands:
+    build:
+      - npm install
+      - npm install -g serve
+run: 
+  command: serve -s build -l 8080
